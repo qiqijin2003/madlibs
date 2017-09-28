@@ -5,7 +5,7 @@ var nunjucks = require('nunjucks');
 var _ = require('lodash');
 var app = express();
 
-var PORT = process.env.PORT || '3000';
+var PORT = process.env.PORT || '8080';
 var IP = process.env.IP || '127.0.0.1';
 
 nunjucks.configure('stories', {
